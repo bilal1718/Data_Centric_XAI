@@ -29,6 +29,7 @@ Our findings demonstrate that using XAI to identify "blind spots" and applying t
 
 ## Framework Pipeline
 ![Design Pipeline](images/image-1.png)
+
 *Figure 1: The four-phase methodology from data quality assessment to XAI-guided refinement.*
 
 ### 1. Model Architectures Evaluated
@@ -44,7 +45,7 @@ We implement three distinct layers of explainability:
 
 ---
 
-## 📊 Performance & Experimental Results
+## Performance & Experimental Results
 
 ### Accuracy Benchmarks
 | Model | MNIST | Fashion-MNIST | CIFAR-10 | Final Gain (via XAI-Aug) |
@@ -55,6 +56,7 @@ We implement three distinct layers of explainability:
 
 ### Visual Interpretability
 ![Grad-CAM Comparison](images/image.png)
+
 *Figure 2: Heatmap analysis showing the shift in model focus before and after error-driven augmentation.*
 
 ---
